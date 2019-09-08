@@ -1,0 +1,75 @@
+div#card {
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.133916);
+  border-radius: 4px;
+  width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+  white-space: pre-wrap;
+}
+
+div#card span {
+  font-size: 14px;
+  line-height: 22px;
+  color: #3e3e3e;
+}
+
+div#card hr {
+  margin: 20px 0px;
+  color: #eeeeee;
+}
+
+div#card .infos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+div#card .infos img {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+div#card .infos .texto h6 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4a4a4a;
+}
+
+div#card .infos .texto span {
+  font-size: 11px;
+  line-height: 13px;
+  color: #9a9a9a;
+}
+
+div#card section#comments {
+  display: flex;
+  margin: 10px 0px;
+}
+
+div#card section#comments img {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+div#card section#comments .comment {
+  background: #eeeeee;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+div#card section#comments h6 {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  color: #3e3e3e;
+}
+
+div#card section#comments h6 span {
+  font-weight: normal;
+}
